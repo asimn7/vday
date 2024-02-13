@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/ruku1new.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin:0;
+    font-family: 'Dancing Script', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    color: rgba(239, 236, 236, 0.879);
+    position: relative;
+    padding-top: 1%;
+}
+h1{
+    font-weight: bold;
+    font-size: 50px;
+    margin: -150px 0 40px;
+    margin-top: 50px;
+}
+
+.countdown{
+    display: flex;
+    transform: scale(2);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+   
+}
+
+.time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.time h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1;
+    margin: 0 0 5px;
+}
+footer{
+    position: fixed;
+    bottom: 2%  ;
+    left: 0;
+    width: 100%;
+  
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+}
+header{
+    position: fixed;
+   top: 0;
+   text-align: left;
+   padding-top: 5%;
+    width: 100%;
+   font-size: xx-large;
+   padding-left: 3%;
+   font-weight: 900;
+}
+.button-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-right: auto;
+    gap: 10px;
+    padding-left: 40%;   
+}
+.button-container button {
+    padding: 15px 30px;
+    margin: 0 10px;
+    font-size: 16px;
+    background-color: #cdc1c4; /* Red background with 0.8 opacity */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bolder;
+    opacity: 90%;
+}
+
+.button-container button:hover {
+    background-color: #695056; /* Darker red with 0.8 opacity on hover */
+}
+

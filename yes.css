@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    font-family: 'Dancing Script';
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(images/rukusleep.JPG);
+    background-size: cover; /* Ensure the background image covers the entire container */
+    background-position: center top; /* Center the background image */
+}
+
+h1 {
+    font-family: 'Dancing Script';
+    font-size: 70px;
+    padding-top: 10%;
+    color: #dbd5d5;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
